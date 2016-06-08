@@ -105,6 +105,27 @@ class Demo extends React.Component {
         </div>
 
         <hr />
+        <h2 className="text-xs-center m-y-3">Examples</h2>
+
+        <div className="row">
+          <div className="col-xs-12 col-md-6">
+            <h3>Simple</h3>
+            <pre className="pre-scrollable">
+{`<CalendarHeatmap
+  endDate="2016-04-01"
+  numDays={100}
+  values={[
+    { date: '2016-01-01' },
+    { date: '2016-01-22' },
+    { date: '2016-01-30' },
+    // ...and so on
+  ]}
+/>`}
+            </pre>
+          </div>
+        </div>
+
+        <hr />
         <h2 className="text-xs-center m-y-3">Props</h2>
 
         <DemoItem

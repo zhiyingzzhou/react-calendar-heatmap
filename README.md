@@ -29,7 +29,7 @@ To show a basic heatmap of 100 days ending on April 1st:
 
 ```javascript
 <CalendarHeatmap
-  endDate={new Date('2016-04-01')}
+  endDate="2016-04-01"
   numDays={100}
   values={[
     { date: '2016-01-01' },
